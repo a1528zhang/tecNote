@@ -3,7 +3,7 @@
 ------
 
 **错误**：
-- ":CFBundleIdentifier", Does Not Exist 这次碰到的是第三方依赖没有正确安装问题，需要运行一遍检查命令 https://github.com/facebook/react-native/issues/14423
+- ":CFBundleIdentifier", Does Not Exist 这次碰到的是第三方依赖没有正确安装问题，需要运行一遍检查命令，[解决方法](https://github.com/facebook/react-native/issues/14423)
 - error TS2304: Cannot find name 'PropertyKey’.  原因是ts的编译范围将js也算进去了，移除tsconfig的files和include 配置就好，使用默认配置的话ts会只读取ts、tsx文件的
 - error TS2300: Duplicate identifier 'require’. 错误日志中同时是node和rn报错，可能是这两个的@types的包中的定义冲突, 解决原因：安装了多余的@types/node模块，移除了就行
 
