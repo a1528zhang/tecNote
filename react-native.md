@@ -8,9 +8,9 @@
 - error TS2300: Duplicate identifier 'require’. 错误日志中同时是node和rn报错，可能是这两个的@types的包中的定义冲突, 解决原因：安装了多余的@types/node模块，移除了就行
 
 **运行**：
-- ```yarn global add react-native-cli```安装cli
-- ```react-native init AwesomeProject```初始化项目
-- ```cd AwesomeProject & react-native run-ios```运行
+- `yarn global add react-native-cli`安装cli
+- `react-native init AwesomeProject`初始化项目
+- `cd AwesomeProject & react-native run-ios`运行
 - [热更新说明](http://blog.lovezhouting.com/2017/09/03/expo/)
 配置好热更新后先运行yarn start，再新开terminal运行react-native run-ios
 
