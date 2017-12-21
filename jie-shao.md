@@ -20,4 +20,4 @@ story会自动在项目目录下创建好文件夹
 
 `react-native run-ios // react-native-cli的启动方法`
 
-就可以进入storybook的界面
+就可以进入storybook的界面，rn的storybook必须结合模拟器或真机进行使用，web不会展示组件样式，只有控制台信息
