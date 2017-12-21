@@ -5,6 +5,6 @@
 ## content
 
 * [storybook](storybook.md)
-    * [介绍](jie-shao.md)
+  * [运行](jie-shao.md)
 * [react native](react-native.md)
 
