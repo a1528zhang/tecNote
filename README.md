@@ -1,8 +1,4 @@
-技术笔记
+## 技术笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
-
-
-where is markdown editor?
+该文档主要记录各类遇到的问题和解决方法，以免遗忘
 
