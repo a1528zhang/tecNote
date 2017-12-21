@@ -6,6 +6,6 @@
 
 首先使用react-native-cli 或者是 CRNA(create-react-native-app)创建一个项目，之后进入项目目录下运行
 
-```
+`
 getstorybook
-```
+`
