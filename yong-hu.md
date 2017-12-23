@@ -26,4 +26,6 @@
     [赋予root权限的方法](http://blog.csdn.net/stormbjm/article/details/9086163)：
         
 
-- useradd: 
+- **用户：**
+    - 切换用户：su - 用户名
+    - 

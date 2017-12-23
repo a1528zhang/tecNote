@@ -11,7 +11,7 @@
 [node与ts整合的简单教程](https://segmentfault.com/a/1190000007574276)
 
 **[Express](http://expressjs.com/)**：
-一个nodejs的web框架
+一个nodejs的web框架[参考教程](http://javascript.ruanyifeng.com/nodejs/express.html#toc12)
 
 **问题日志**：
 - PanResponder优先于onPress事件，两者冲突，不能同时触发
