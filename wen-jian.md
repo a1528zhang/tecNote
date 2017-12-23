@@ -2,7 +2,7 @@
 
 ---
     * chmod 775 name : 改变文件访问权限
-    * chown [-r] username filename
+    * chown [-r] username filename：改变用户拥有者，-r是递归选项
     * ls -l : 查看文件权限，分别显示所有者（owner或者user）、所有组（group）和其他人（other）
     * mkdir : 创建文件夹
     * touch : 新建一个不存在的文件
