@@ -23,7 +23,7 @@
     
     权限一共有三种：读（r),写（w),执行（x)
     
-    - [赋予root权限的方法](http://blog.csdn.net/stormbjm/article/details/9086163)：
+    [赋予root权限的方法](http://blog.csdn.net/stormbjm/article/details/9086163)：
         
 
 
