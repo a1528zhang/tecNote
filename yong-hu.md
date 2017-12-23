@@ -26,5 +26,4 @@
     [赋予root权限的方法](http://blog.csdn.net/stormbjm/article/details/9086163)：
         
 
-
 - useradd: 
