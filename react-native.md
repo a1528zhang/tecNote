@@ -11,7 +11,7 @@
 - `yarn global add react-native-cli`安装cli
 - `react-native init AwesomeProject`初始化项目
 - `cd AwesomeProject & react-native run-ios`运行
-- [热更新说明&typescript](http://blog.lovezhouting.com/2017/09/03/expo/)，
+- [热更新说明](http://blog.lovezhouting.com/2017/09/03/expo/)
 配置好热更新后先运行yarn start，再新开terminal运行react-native run-ios
 
 **代码**：
