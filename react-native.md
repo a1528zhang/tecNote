@@ -16,3 +16,4 @@
 
 **代码**：
 - AsyncStorage.setItem()方法存入的数据是持久化的，关机后也不会删除
+- scrollView的scrollTo方法可以滚动组件
