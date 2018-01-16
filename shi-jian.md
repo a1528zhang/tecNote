@@ -9,6 +9,6 @@
 选择官方docker store提供的node镜像作为基础
 `docker pull node`
 
-之后新建一个DockerFile文件,内容为:
+之后新建一个DockerFile文件:
 
 `FROM node:8.9.3  // 使用8.9.3的node镜像`
