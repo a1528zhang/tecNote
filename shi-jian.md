@@ -23,7 +23,7 @@
 
 不用也可以，但是使用了可以防止程序在调用这个地址时找不到，预先定义，之后要在命令中挂载数据卷
 
-`WORKDIR /root/agoraRecord    // 将当前路径改变`
+`WORKDIR /root/agoraRecord    // 将当前工作路径改变`
 
 如果用RUN cd的方式跳转的话，离开这个RUN语句后就会回到上个WORKDIR，因为每次RUN会产生一个新的进程
 
