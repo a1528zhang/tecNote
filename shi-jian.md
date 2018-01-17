@@ -7,6 +7,7 @@
 首先下载并安装好docker，安装傻瓜式就不说了
 
 选择官方docker store提供的node镜像作为基础
+
 `docker pull node`
 
 #### DockerFile
