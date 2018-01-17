@@ -45,4 +45,4 @@ CMD是在运行容器之后马上执行的命令，如果用`CMD "yarn start"`�
 
 `docker run -t -i --mount type=bind,src=/Users/az/workspace/agoraRecordTest,dst=/root/agoraRecord -p 80:80 71bb1fa9b38e`
 
-这里
+查看[命令行文档](https://docs.docker.com/engine/reference/commandline/run/#options)，-t分配一个伪终端（pseudo-tty）并绑定到容器的标准输入上，-i 则让容器的标准输入保持打开。
