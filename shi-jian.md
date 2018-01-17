@@ -23,6 +23,7 @@
 ```
     VOLUME /root/agoraRecord    // 定义一个匿名数据卷
     VOLUME /root/recordVideo    // 定义录制文件存放的数据卷
+    VOLUME /root/logs    // 日志数据卷
 ```
 
 不用也可以，但是使用了可以防止程序在调用这个地址时找不到，预先定义，之后要在命令中挂载数据卷
