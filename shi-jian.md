@@ -22,8 +22,9 @@
 
 ```
     VOLUME /root/agoraRecord    // 定义一个匿名数据卷
-    VOLUME /root/recordVideo    // 定义录制文件存放的数据卷
+    VOLUME /root/recordMedia    // 定义录制文件存放的数据卷
     VOLUME /root/logs    // 日志数据卷
+    VOLUME /root/agoraRecordSDK    // 录制工具
     or
     VOLUME [ "/root/recordMedia", "/root/logs", "/root/agoraRecordSDK", "/root/agoraRecord" ]
 ```
