@@ -43,7 +43,7 @@ CMD是在运行容器之后马上执行的命令，如果用`CMD "yarn start"`�
 
 `docker build -t agorarecord:0.1 .`
 
-进入DockerFile文件目录后执行，会构建一个匿名的，只有id号的image，-t给这个image加上名称和tag，agorarecord是名称，0.1是tag，就像node:8.9.3一样
+进入DockerFile文件目录后执行，会构建一个匿名的，只有id号的image，-t给这个image加上名称和tag，agorarecord是名称，0.1是tag，就像node:8.9.3一样，最后一个点是当前路径
 
 #### 运行容器
 
