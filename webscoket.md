@@ -7,3 +7,17 @@ WebSocket 是一个全新的、独立的协议，基于 TCP 协议，与 HTTP �
 ![通信过程](https://pic2.zhimg.com/80/v2-361334a3f98fb379672d837d894c19fb_hd.jpg)
 
 如图，首先由客户端先发起http请求通知server这是一个ws请求，server收到后返回消息，之后协议切换为ws，然后client与server可以互相通信，其中有任意一方结束连接ws就关闭。
+
+client的http请求报文头中包含：
+- "Upgrade: websocket"： 表明这是一个 WebSocket 类型请求，意在告诉 server 需要将通信协议切换到 WebSocket
+
+- "Sec-WebSocket-Key: *": 是 client 发送的一个 base64 编码的密文，要求 server 必须返回一个对应加密的 "Sec-WebSocket-Accept" 应答，否则 client 会抛出 "Error during WebSocket handshake" 错误，并关闭连接
+
+server收到http请求后的应答报文：
+- "HTTP/1.1 101 WebSocket Protocol Handshake"：返回的状态码为 101，表示同意 client 的协议转换请求
+
+- "Upgrade: websocket"
+
+- "Connection: Upgrade"
+
+- "Sec-WebSocket-Accept: *"
