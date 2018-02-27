@@ -38,5 +38,37 @@
 **namespace**：
 在文件内的代码块，如果没有导出，namespace外部无法访问内部的成员
 
+**集成过程**:
+- 安装typescript ts-loader @type/react 等依赖
+- 在webpack配置文件中加入ts文件解析配置
+```
+{
+        test: /\.(ts|tsx)$/,
+        exclude: /node_modules/,
+        loader: "ts-loader",
+}
+```
+- 添加tsconfig.json文件
+```
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "../../built/local/tsc.js",
+        "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
+```
+
 **遇到的问题**:
 - Property 'find' does not exist on type 'number[]' 数组无法找到find方法，在tsconfig中的target加上es6，[解决方法](https://github.com/Microsoft/TypeScript/issues/6945)
