@@ -55,7 +55,7 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "outFile": "../../built/local/tsc.js",
+        "outDir": "../../build/",
         "sourceMap": true,
         "target": "es5",
         "jsx": "react",
