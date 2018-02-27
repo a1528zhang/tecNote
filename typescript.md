@@ -69,6 +69,10 @@
     ]
 }
 ```
+- 修改react的引用方式为 
+```
+    import * as React from 'react';
+```
 
 **遇到的问题**:
 - Property 'find' does not exist on type 'number[]' 数组无法找到find方法，在tsconfig中的target加上es6，[解决方法](https://github.com/Microsoft/TypeScript/issues/6945)
