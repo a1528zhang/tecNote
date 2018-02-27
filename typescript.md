@@ -48,7 +48,7 @@
         loader: "ts-loader",
 }
 ```
-- 添加tsconfig.json文件
+- 添加tsconfig.json文件 [配置项信息](https://www.tslang.cn/docs/handbook/compiler-options.html)
 ```
 {
     "compilerOptions": {
